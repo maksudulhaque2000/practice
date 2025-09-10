@@ -8,10 +8,6 @@ type User = {
     age: number,
     role?: "admin" | "user" | "guest", 
 };
-// function checkUser(T : User) {
-//     console.log(T);
-//     return;
-// };
 const checkUser = (T: User): void => {
   console.log(T);
 };
@@ -19,6 +15,7 @@ checkUser({name: "maksud", age: 13, role: "admin"})
 
 // Task 3
 // Task 4
+
 // Task 5
 const word = (T : string) : void => {
     const backGear = [...T].reverse().join("")
@@ -49,3 +46,19 @@ const condition = (data : string | number)=> {
 condition(10);
 
 // Task 8
+type Person = {
+    name: string,
+    email: string,
+}
+interface AdminUser extends Person {
+    adminLevel ?: 'admin'
+}
+function user(params:AdminUser) : void {
+if (params.adminLevel === 'admin') {
+    console.log(`Hello ${params.name}, Your email is ${params.email} and you are an ${params.adminLevel}`);
+} else {
+    console.log(`Hello ${params.name}, Your email is ${params.email} and you are not an admin`);
+}
+}
+
+user({name: "maksudul", email: "smmaksudulhaque2000@gmail.com", adminLevel: "admin"})
