@@ -1,7 +1,7 @@
 # My Development Sandbox & Practice Repository
 
 <div align="center">
-  <img src="preview.png" height="400" width="800" alt="Smart Inventory Cover"/>
+  <img src="./public/preview.jpg" height="400" width="800" alt="Smart Inventory Cover"/>
 </div>
 
 ![Repository Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)
@@ -53,8 +53,8 @@ git pull origin main
 ### 3. Commit and Push Changes
 After making changes or adding new files, I commit them with a descriptive message and push them to GitHub.
 
-```bash```
 # Stage all changes for commit
+```bash```
 ```
 git add .
 
