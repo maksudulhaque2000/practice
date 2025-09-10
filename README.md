@@ -37,20 +37,25 @@ This section outlines the standard workflow I follow to keep my local and remote
 ### 1. Clone the Repository (One-time setup)
 
 ```bash```
+```
 git clone [https://github.com/maksudulhaque2000/practice](https://github.com/maksudulhaque2000/practice.git)
 cd practice
+```
 
 ### 2. Sync Before Starting Work
 Before starting a new practice session, I always pull the latest changes from the remote main branch to avoid conflicts.
 
 ```bash```
+```
 git pull origin main
+```
 
 ### 3. Commit and Push Changes
 After making changes or adding new files, I commit them with a descriptive message and push them to GitHub.
 
 ```bash```
 # Stage all changes for commit
+```
 git add .
 
 # Commit the changes with a meaningful message
@@ -58,6 +63,7 @@ git commit -m "feat: Solve two-sum problem in Python"
 
 # Push the committed changes to the remote repository
 git push origin main
+```
 
 ## 🤝 Contributing
 This is a personal repository for my learning and practice. Therefore, I am not currently accepting external contributions. However, feel free to fork this project for your own use and learning!
