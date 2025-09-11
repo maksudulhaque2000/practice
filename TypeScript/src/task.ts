@@ -62,3 +62,5 @@ if (params.adminLevel === 'admin') {
 }
 
 user({name: "maksudul", email: "smmaksudulhaque2000@gmail.com", adminLevel: "admin"})
+
+// Task 9
