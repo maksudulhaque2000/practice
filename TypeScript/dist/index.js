@@ -36,8 +36,20 @@
 //         console.log(`Designation: ${this.designation}`);
 //     }
 // }
+// -------------Link index.html File---------------
 const userForm = document.querySelector('#userForm');
 console.log(userForm);
-console.log(userForm.userEmail);
+const userName = document.querySelector('#userName');
+console.log(userName);
+userForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const data = {
+        name: userForm.userName.value,
+        email: userForm.userEmail.value,
+        age: userForm.userAge.value,
+    };
+    console.log(data);
+    console.log(userForm.userEmail.value);
+});
 export {};
 //# sourceMappingURL=index.js.map
