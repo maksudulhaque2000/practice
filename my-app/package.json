@@ -73,7 +73,10 @@
     "vary": "^1.1.2",
     "wrappy": "^1.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
