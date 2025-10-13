@@ -26,7 +26,7 @@ This repository contains code written in various languages and technologies, inc
 To keep the repository organized and easy to navigate, I follow a consistent folder structure. A typical layout is as follows:
 
 /
-├── 📁TypeScript /
+├── 📁
 │
 └── 📝 .gitignore
 
