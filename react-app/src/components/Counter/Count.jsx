@@ -12,10 +12,10 @@ const Count = () => {
     }
 
     return (
-        <div>
-            <h3>{count}</h3>
-            <button onClick={handleIncriment}>+</button>
-            <button onClick={handleDecriment} disabled={count <= 0}>-</button>
+        <div className='flex justify-between items-center p-4'>
+            <button className='font-bold text-6xl bg-amber-300 p-4 hover:bg-amber-700 rounded' onClick={handleIncriment}>+</button>
+            <h3 className='text-6xl font-bold text-orange-800'>{count}</h3>
+            <button className='font-bold text-6xl bg-amber-300 p-4 hover:bg-amber-700 rounded' onClick={handleDecriment} disabled={count <= 0}>-</button>
         </div>
     );
 };
